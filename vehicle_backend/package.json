@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "nodemon server.js",
-      "seed": "node prisma/seed.js"
+    "dev": "nodemon server.js",
+    "seed": "node prisma/seed.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^6.7.0",
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "prisma": "^6.7.0"
   },
